@@ -6,7 +6,7 @@ require 'connect.php';
 sleep(2);
 
 $req = $bdd->prepare('DELETE FROM billets WHERE id =?');
-$req->execute(array($_POST['billet']));
+$req->execute(array($_GET['billet']));
 
 // header('Location: admin.php');
 ?>
