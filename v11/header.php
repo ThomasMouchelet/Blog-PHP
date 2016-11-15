@@ -18,6 +18,10 @@ if(!isset($_SESSION)) {
     </head>
         
     <body>
+    <div class="progress" style="display:none;position:absolute;top:0;margin:0;">
+      <div class="determinate" style="width: 0%;"></div>
+    </div>
+
       <?php if(isset($_SESSION['type']) AND $_SESSION['type']=='admin'){ ?>
          <nav>
               <div class="nav-wrapper">
@@ -56,4 +60,5 @@ if(!isset($_SESSION)) {
           </div>
         </nav>
           <div class="container">
+          
       <?php } ?>

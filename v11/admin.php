@@ -10,9 +10,12 @@
             <h2>Liste des articles</h2>
 
 			<a href="add_billet.php" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
-            <div class="waves-effect waves-light btn" id="messages"></div>
             
-
+            
+<div class="progress" style="display:none;position:absolute;top:0;margin:0;">
+      <div class="determinate" style="width: 0%;"></div>
+    </div>
+    
             <table>
 		        <thead>
 		          <tr>
